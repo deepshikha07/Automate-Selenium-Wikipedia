@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium WikiPedia Test Automation">
+
+
+  <test thread-count="5" verbose="2" name="Free CRM Test Cases">
+    <classes>
+      <class name="com.selenium.qa.test.SeleniumWikiPageTest"/>
+      <class name="com.selenium.qa.test.OxygenWikiPageTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
